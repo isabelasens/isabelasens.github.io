@@ -1,0 +1,102 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    box-shadow: 10px 10px 30px rgb(238,174,202);
+    border-radius: 10%;
+    width: 100%;
+}
+
+
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 0.4rem;
+    font-size: 1rem;
+    align-items:center;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--font-color-default);
+}
+
+.botao{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,0.6839110644257703) 0%, rgba(148,187,233,0.38699229691876746) 100%);
+    border: 50px;
+    border-color: rgb(238,174,202);
+    border-radius: 0%;
+    box-shadow: 5px 5px 20px; color: aliceblue;
+    font: message-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-text-fill-color: dimgray;
+    
+}
+
+.botao:hover{
+    color: #ec6fae;
+    transition: background-color 0.3s;
+}
+
+.corpo{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,0.40940126050420167) 100%, rgba(148,187,233,0.38699229691876746) 100%);
+    box-shadow: 10px 10px 30px rgb(238,174,202);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+    display: flex ;
+    flex-direction: column;
+    height: 100vh;
+
+    
+}
+
+.image {
+    border: 2px solid #ec6fae;
+    box-shadow: 5px 5px 20px #6ab6ce;
+    border-image: fill;
+    border-radius: 20%;
+    padding:0px;
+}
+
+.titulo {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-text-fill-color: rgb(85, 85, 85);
+}
+
+.carouselslide{
+    align-items: center;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
+}
+
+#carouselExampleCaptions .carousel-item img {
+    margin: 5% 5% 10% 5% ; 
+
+
+}
+
+#carouselExampleCaptions .carousel-item-wrapper {
+    display: flex;
+    align-items: start;
+    gap: 0px;
+}
+
+#carouselExampleCaptions .carousel-item-wrapper .carousel-label{
+ margin-top: 5%;   
+
+}
+
+main {
+    flex: 1 ; 
+    display: flex ; 
+    width: 100% ;
+}
+
+#carouselExampleCaptions {
+    width: 100% ;
+}
